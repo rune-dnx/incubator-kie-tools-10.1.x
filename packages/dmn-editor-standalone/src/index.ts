@@ -42,8 +42,7 @@ export function open(args: {
   const iframe = document.createElement("iframe");
   iframe.srcdoc = `
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="en" class="pf-theme-dark">  <head>
     <style>
       html,
       body,
