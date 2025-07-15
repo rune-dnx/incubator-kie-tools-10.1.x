@@ -763,7 +763,7 @@ export function Constraints({
         <p
           style={{
             padding: "10px",
-            background: "#eee",
+            background: "#333",
             borderRadius: "10px",
             textAlign: "center",
           }}
@@ -852,7 +852,7 @@ export function Constraints({
               <p
                 style={{
                   padding: "24px",
-                  background: "#eee",
+                  background: "#333",
                   borderRadius: "10px",
                   textAlign: "center",
                 }}

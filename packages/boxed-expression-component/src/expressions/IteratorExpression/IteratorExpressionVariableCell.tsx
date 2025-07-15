@@ -55,7 +55,7 @@ export function IteratorExpressionVariableCell({
   return (
     <div
       style={{
-        minHeight: "60px",
+        minHeight: "40px",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
