@@ -363,7 +363,8 @@
 
 .kie-dmn-editor--palette {
   width: 42px;
-  background: #fff;
+  /*dx*/
+  background: #1e1f22;
   border-radius: 40px;
   border: 1px solid black;
 }
@@ -398,7 +399,8 @@
   max-width: 40px;
   border-radius: 40px;
   border: 0;
-  background: white;
+  /*dx*/
+  background: #1e1f22;
 }
 .kie-dmn-editor--palette-button:hover {
   filter: brightness(95%);
