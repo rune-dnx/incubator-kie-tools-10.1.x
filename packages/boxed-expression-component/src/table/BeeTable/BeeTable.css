@@ -57,7 +57,7 @@
 :where(.pf-theme-dark) .expression-container .table-component table th.fixed-column {
   /*dx*/
   /*background-color: #2c2c2c;*/
-  color: var(--pf-global--palette--orange-500);
+  color: var(--pf-v5-global--palette--orange-500);
   border-top: none !important;
   /*dx*/
 }
@@ -101,7 +101,8 @@
 
 .expression-container .table-component table thead th:last-child,
 .expression-container .table-component table tbody td:last-child {
-  border-right: 1px solid var(--pf-v5-global--palette--black-300);
+  /*dx/*
+  /*border-right: 1px solid var(--pf-v5-global--palette--black-300);*/
 }
 
 .expression-container .table-component table thead tr:last-child th,
@@ -208,15 +209,17 @@
 
 .expression-container .table-component table thead th.active:after,
 .expression-container .table-component table tbody td.active:after {
+  /*
   position: absolute;
-  top: -2px !important;
-  left: -2px !important;
+  top: -1px !important;
+  left: -1px !important;
   content: "";
-  width: calc(100% + 4px) !important;
-  height: calc(100% + 4px) !important;
+  width: calc(100% + 2px) !important;
+  height: calc(100% + 2px) !important;
   z-index: 6 !important;
-  border: 3px solid #438cb1 !important;
+  border-bottom: 1px solid #438cb1 !important;
   border-radius: 3px !important;
+  */
 }
 
 /** Table Body rules */
@@ -276,7 +279,7 @@
   font-size: 0.8em;
   text-align: left;
   color: white;
-  background-color: var(--pf-global--palette--black-600);
+  background-color: var(--pf-v5-global--palette--black-600);
   position: absolute;
   top: 0px;
   left: 0px;
@@ -309,6 +312,7 @@
   padding: 0;
   /*border-style: solid;*/
   /*dx*/
+  color: ghostwhite;
   border-width: 0.1px;
   text-align: center;
   overflow: visible;

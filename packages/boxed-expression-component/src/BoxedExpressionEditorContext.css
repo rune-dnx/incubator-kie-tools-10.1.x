@@ -107,7 +107,7 @@
   font-weight: 700;
   font-family: Menlo, monospace;
   white-space: pre !important;
-  color: white;
+  color: ghostwhite;
 }
 
 :where(.pf-theme-dark) .expression-container .expression-info .expression-info-data-type {
@@ -160,8 +160,9 @@
 }
 
 :where(.pf-theme-dark) .literal-expression-body-container {
+  margin-top: 5px !important;
   border-radius: 5px;
-  background-color: var(--pf-global--palette--black-800) !important;
+  background-color: var(--pf-v5-global--palette--black-800) !important;
 }
 /*dx*/
 
@@ -206,13 +207,13 @@
 }
 
 :where(.pf-theme-dark) .expression-info .pf-u-text-truncate {
-  color: var(--pf-global--palette--black-200) !important;
+  color: var(--pf-v5-global--palette--black-200) !important;
 }
 :where(.pf-theme-dark) .pf-u-text-truncate .expression-info-data-type {
   display: inline-block !important;
   position: relative !important;
   padding: 0 0.5rem;
-  color: var(--pf-global--palette--black-500) !important;
+  color: var(--pf-v5-global--palette--black-500) !important;
 }
 :where(.pf-theme-dark) .result-context-1 {
   display: block !important;
@@ -222,37 +223,37 @@
   background-color: red !important;
 }
 :where(.pf-theme-dark)
-.conditional-expression
-.decision-table-expression
-.table-component
-.data-header-cell
-.context-expression
-.decision-table-expression
-.table-component
-.data-header-cell,
+  .conditional-expression
+  .decision-table-expression
+  .table-component
+  .data-header-cell
+  .context-expression
+  .decision-table-expression
+  .table-component
+  .data-header-cell,
 :where(.pf-theme-dark) .context-expression .relation-expression .data-header-cell {
-  border-top: 0.2px solid var(--pf-global--palette--black-800) !important;
-  border-bottom: 0.2px solid var(--pf-global--palette--black-800) !important;
-  border-right: 0.5px solid var(--pf-global--palette--black-800) !important;
-  border-left: 0.5px solid var(--pf-global--palette--black-800) !important;
+  border-top: 0.2px solid ghostwithe !important;
+  border-bottom: 0.2px solid #3c3f42 !important;
+  border-right: 0.5px solid #3c3f42 !important;
+  border-left: 0.5px solid #3c3f42 !important;
 }
 :where(.pf-theme-dark) .conditional-expression .decision-table-expression .table-component .data-cell,
 :where(.pf-theme-dark) .context-expression .decision-table-expression .table-component .data-cell,
 :where(.pf-theme-dark) .context-expression .relation-expression .table-component .data-cell {
-  border-top: 0.2px solid var(--pf-global--palette--black-800) !important;
-  border-bottom: 0.2px solid var(--pf-global--palette--black-800) !important;
-  border-right: 0.5px solid var(--pf-global--palette--black-800) !important;
-  border-left: 0.5px solid var(--pf-global--palette--black-800) !important;
+  border-top: 0.2px solid #3c3f42 !important;
+  border-bottom: 0.2px solid #3c3f42 !important;
+  border-right: 0.5px solid #3c3f42 !important;
+  border-left: 0.5px solid #3c3f42 !important;
 }
 .context-expression {
-  /*background-color: var(--pf-global--palette--black-900);*/
+  /*background-color: var(--pf-v5-global--palette--black-900);*/
   padding: 1rem;
   border: 0.5px solid #666666;
   border-radius: 5px;
 }
 :where(.pf-theme-dark) .context-expression .context-expression {
-  background-color: var(--pf-global--palette--black-800);
-  border: 0.5px solid var(--pf-global--palette--black-700);
+  background-color: var(--pf-v5-global--palette--black-800);
+  border: 0.5px solid var(--pf-v5-global--palette--black-700);
   border-radius: 4px;
   margin: 1rem 0;
   padding: 1rem;
@@ -270,4 +271,14 @@
 }
 .context-expression .context-expression .header-cell {
   font-size: 0.7rem;
+}
+.pf-v5-c-dropdown {
+  display: none !important;
+}
+
+.logic-type-selected-header:hover .pf-v5-c-dropdown {
+  display: block !important;
+}
+.logic-type-selected-header:hover .pf-v5-c-dropdown button span {
+  color: ghostwhite !important;
 }
