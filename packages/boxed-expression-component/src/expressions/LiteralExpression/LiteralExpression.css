@@ -67,10 +67,9 @@
   width: 20px;
   min-width: 20px;
   max-width: 20px;
-  color: var(--pf-v5-global--palette--black-600);
+  color: var(--pf-v5-global--palette--black-500);
   font-family: Menlo, monospace;
   /*dx*/
-  color: var(--pf-global--palette--black-800);
   display: flex;
   justify-content: center;
   align-items: center;

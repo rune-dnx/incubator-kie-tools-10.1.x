@@ -60,7 +60,7 @@
   font-family: inherit;
   font-size: 100%;
   line-height: var(--pf-v5-global--LineHeight--md);
-  color: var(--pf-v5-global--Color--100);
+  color: var(--pf-v5-global--palette--black-200);
 }
 
 .boxed-expression-provider blockquote,
@@ -92,12 +92,10 @@
   font-weight: 700;
   color: var(--pf-v5-global--palette--black-600);
   font-family: Menlo, monospace;
-  font-size: 0.8em;
-  white-space: pre !important;
+  font-size: 0.9em;
 }
 
 .expression-container .expression-info .expression-info-data-type {
-  white-space: pre !important;
   font-style: italic;
   font-size: smaller;
   color: #1b515f;
@@ -106,12 +104,11 @@
 :where(.pf-theme-dark) .expression-container .expression-info .expression-info-name {
   font-weight: 700;
   font-family: Menlo, monospace;
-  white-space: pre !important;
+
   color: ghostwhite;
 }
 
 :where(.pf-theme-dark) .expression-container .expression-info .expression-info-data-type {
-  white-space: pre !important;
   font-style: italic;
   font-size: smaller;
   display: none;
@@ -281,4 +278,14 @@
 }
 .logic-type-selected-header:hover .pf-v5-c-dropdown button span {
   color: ghostwhite !important;
+}
+
+/* dx*/
+.pf-v5-c-menu {
+  background-color: var(--pf-v5-global--palette--black-800) !important;
+  color: var(--pf-v5-global--palette--black-100) !important;
+}
+.pf-v5-c-menu__item {
+  color: var(--pf-v5-global--palette--black-100) !important;
+  font-size: 0.8rem !important;
 }

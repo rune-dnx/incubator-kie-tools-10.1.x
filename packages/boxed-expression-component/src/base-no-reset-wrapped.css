@@ -27,7 +27,7 @@
   --pf-v5-global--BackgroundColor--100: var(--pf-v5-global--BackgroundColor--light-100);
 }
 
-.boxed-expression-provider .pf-t-dark {
+.boxed-expression-provider {
   --pf-v5-global--Color--100: var(--pf-v5-global--Color--light-100);
   --pf-v5-global--Color--200: var(--pf-v5-global--Color--light-200);
   --pf-v5-global--BorderColor--100: var(--pf-v5-global--BorderColor--light-100);
@@ -37,11 +37,11 @@
   --pf-v5-global--BackgroundColor--100: var(--pf-v5-global--BackgroundColor--dark-100);
 }
 
-.boxed-expression-provider .pf-t-dark .pf-v5-c-card {
+.boxed-expression-provider .pf-v5-c-card {
   --pf-v5-c-card--BackgroundColor: var(--pf-v5-global--BackgroundColor--dark-transparent-200);
 }
 
-.boxed-expression-provider .pf-t-dark .pf-v5-c-button {
+.boxed-expression-provider .pf-v5-c-button {
   --pf-v5-c-button--m-primary--Color: var(--pf-v5-global--primary-color--dark-100);
   --pf-v5-c-button--m-primary--hover--Color: var(--pf-v5-global--primary-color--dark-100);
   --pf-v5-c-button--m-primary--focus--Color: var(--pf-v5-global--primary-color--dark-100);
@@ -315,23 +315,23 @@ html {
   vertical-align: -0.125em;
 }
 
-.boxed-expression-provider .pf-t-dark.pf-m-transparent {
+.boxed-expression-provider .pf-m-transparent {
   background-color: transparent;
 }
 
-.boxed-expression-provider .pf-t-dark.pf-m-transparent-100 {
+.boxed-expression-provider .pf-m-transparent-100 {
   background-color: rgba(3, 3, 3, 0.42);
 }
 
-.boxed-expression-provider .pf-t-dark.pf-m-transparent-200 {
+.boxed-expression-provider .pf-m-transparent-200 {
   background-color: rgba(3, 3, 3, 0.6);
 }
 
-.boxed-expression-provider .pf-t-dark.pf-m-opaque-100 {
+.boxed-expression-provider .pf-m-opaque-100 {
   background-color: #3c3f42;
 }
 
-.boxed-expression-provider .pf-t-dark.pf-m-opaque-200 {
+.boxed-expression-provider .pf-m-opaque-200 {
   background-color: #151515;
 }
 
