@@ -35,14 +35,13 @@
   color: ghostwhite;
 }
 
-
 .expression-container .expression-container-box,
 .expression-container .expression-type {
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
   /*color: gray;*/
   /*dx*/
   /*color: gray;*/
-  color: #1e1f22;
+  color: var(--pf-v5-global--palette--black-100);
   /*dx*/
 }

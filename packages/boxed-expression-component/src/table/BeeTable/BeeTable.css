@@ -149,6 +149,10 @@
   /*border-right: 1px solid var(--pf-v5-global--palette--black-400);*/
   /*border-bottom: 1px solid var(--pf-v5-global--palette--black-400);*/
 }
+.expression-container .table-component table:first-child .table-component table thead tr th {
+  border-top: 0.2px solid var(--pf-v5-global--palette--black-800);
+  border-right: 0.2px solid var(--pf-v5-global--palette--black-800) !important;
+}
 
 .expression-container .table-component table tbody tr td:first-child {
   /*border-top: 1px solid var(--pf-v5-global--palette--black-400);*/
@@ -435,7 +439,9 @@
   align-items: center;
   justify-content: center;
   border-radius: 18px;
-  background-color: #def3ff;
+  /*dx*/
+  background-color: var(--pf-v5-global--palette--black-400);
+  color: var(--pf-v5-global--palette--black-100);
   font-size: 0.65em;
   z-index: 20;
   cursor: pointer;

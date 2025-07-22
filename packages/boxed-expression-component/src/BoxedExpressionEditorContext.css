@@ -289,3 +289,8 @@
   color: var(--pf-v5-global--palette--black-100) !important;
   font-size: 0.8rem !important;
 }
+
+.pf-v5-c-popover {
+  background-color: var(--pf-v5-global--palette--black-800) !important;
+  border: 1px solid var(--pf-v5-global--palette--black-600) !important;
+}
