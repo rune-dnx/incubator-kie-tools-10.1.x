@@ -196,7 +196,7 @@
 }
 .additional-row-content .dx-col {
   padding: 1.4rem 0.4rem !important;
-  font-size: 14px !important;
+  font-size: 16px !important;
   font-family: Serif !important;
 }
 :where(.pf-theme-dark) .additional-row-content .dx-col .mtk5 {
@@ -230,18 +230,26 @@
   .data-header-cell,
 :where(.pf-theme-dark) .context-expression .relation-expression .data-header-cell {
   border-top: 0.2px solid ghostwithe !important;
-  border-bottom: 0.2px solid #3c3f42 !important;
+  /* border-bottom: 0.2px solid #3c3f42 !important;
   border-right: 0.5px solid #3c3f42 !important;
-  border-left: 0.5px solid #3c3f42 !important;
+  border-left: 0.5px solid #3c3f42 !important;*/
 }
+
 :where(.pf-theme-dark) .conditional-expression .decision-table-expression .table-component .data-cell,
 :where(.pf-theme-dark) .context-expression .decision-table-expression .table-component .data-cell,
 :where(.pf-theme-dark) .context-expression .relation-expression .table-component .data-cell {
-  border-top: 0.2px solid #3c3f42 !important;
-  border-bottom: 0.2px solid #3c3f42 !important;
-  border-right: 0.5px solid #3c3f42 !important;
-  border-left: 0.5px solid #3c3f42 !important;
+  border-top: 0.2px solid var(--pf-v5-global--palette--black-600) !important;
+  /*border-bottom: 0.2px solid var(--pf-v5-global--palette--black-600)!important;*/
+
+  border-left: 0.5px solid var(--pf-v5-global--palette--black-600) !important;
 }
+.context-expression .decision-table-expression .table-component table tbody td:last-child {
+  border-right: 0.5px solid var(--pf-v5-global--palette--black-600) !important;
+}
+.context-expression .decision-table-expression .table-component table tbody tr:last-child td {
+  border-bottom: 0.5px solid var(--pf-v5-global--palette--black-600) !important;
+}
+
 .context-expression {
   /*background-color: var(--pf-v5-global--palette--black-900);*/
   padding: 1rem;
@@ -252,7 +260,7 @@
   background-color: var(--pf-v5-global--palette--black-800);
   border: 0.5px solid var(--pf-v5-global--palette--black-700);
   border-radius: 4px;
-  margin: 1rem 0;
+  margin: 0.3rem 0;
   padding: 1rem;
 }
 
@@ -289,7 +297,6 @@
   color: var(--pf-v5-global--palette--black-100) !important;
   font-size: 0.8rem !important;
 }
-
 .pf-v5-c-popover {
   background-color: var(--pf-v5-global--palette--black-800) !important;
   border: 1px solid var(--pf-v5-global--palette--black-600) !important;

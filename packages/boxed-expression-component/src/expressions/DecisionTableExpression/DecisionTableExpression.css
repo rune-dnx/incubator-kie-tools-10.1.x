@@ -21,7 +21,7 @@
 .expression-container .decision-table-expression table thead th.input .add-column-button {
   /*background-color: #def3ff;*/
   /*dx*/
-  background-color: #1b2632;
+  background-color: #4f2e03;
   font-size: 0.7rem;
   /*dx*/
 }
@@ -36,7 +36,7 @@
 .expression-container .decision-table-expression table thead th.annotation .add-column-button {
   /*background-color: #ffffff;*/
   /*dx*/
-  background-color: #1e1f22;
+  background-color: #001861;
   border-left: 1px solid var(--pf-global--palette--black-700);
   font-size: 0.8rem;
   /*dx*/
